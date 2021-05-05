@@ -1,0 +1,20 @@
+In pc the data we use is from 0-8gb
+  use distributed system incase we have many data
+advantages -
+    uses multiple cores and stuffs
+    can function even without one pc work is not affected
+ 
+ 
+ HADOOP - 
+      helps in file distrubution over many files
+      used HDFS distributed file system
+ more working -
+        uses block of 128 mb
+        each has been replicated 3 times
+        data reduced is much less
+        
+ MAP REDUCE - 
+          splitting task over distributed set of files
+          has job and task tracker
+          job runs code to task tracker
+          task allocates cpu
